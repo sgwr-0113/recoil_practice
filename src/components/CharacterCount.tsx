@@ -5,5 +5,5 @@ import { charCountState } from "selectors/charCountState";
 export const CharacterCount: React.FC = () => {
   const count = useRecoilValue(charCountState);
 
-  return <>Character Count: {count}</>;
+  return <>文字数： {count}</>;
 };
